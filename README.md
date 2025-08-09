@@ -153,5 +153,10 @@ Confirm when prompted to clean up all managed resources.
 - [Google Cloud Shell](https://cloud.google.com/shell/docs/)
 
 ---
-
+<img width="1470" height="624" alt="Image" src="https://github.com/user-attachments/assets/73ba4146-0271-462a-ae5c-b99538344239" />
+<img width="1877" height="774" alt="Image" src="https://github.com/user-attachments/assets/3445e28c-3f6e-4478-85f7-85aff7993a3d" />
+<img width="924" height="443" alt="Image" src="https://github.com/user-attachments/assets/b77332ac-cba4-4b36-be24-66a79e08f052" />
+<img width="1414" height="596" alt="Image" src="https://github.com/user-attachments/assets/6f72ce0b-0868-45ac-aaf4-b6bbb787373c" />
+<img width="1868" height="794" alt="Image" src="https://github.com/user-attachments/assets/844c0516-3c70-4190-a962-d501e7fccca4" />
+<img width="1459" height="310" alt="Image" src="https://github.com/user-attachments/assets/cce448e3-9be1-41ac-b91b-41ef3929676b" />
 Congratulations! You’ve deployed your first VM instance using Terraform. Continue exploring to manage more complex infrastructure with code.
