@@ -69,6 +69,7 @@ resource "google_compute_instance" "terraform" {
   }
 }
 ```
+<img width="1877" height="774" alt="Image" src="https://github.com/user-attachments/assets/3445e28c-3f6e-4478-85f7-85aff7993a3d" />
 
 **Note:**  
 - The `resource` block defines the GCP VM instance to be created.
@@ -89,7 +90,7 @@ Run the following command to initialize Terraform and download the necessary pro
 ```sh
 terraform init
 ```
-
+<img width="924" height="443" alt="Image" src="https://github.com/user-attachments/assets/b77332ac-cba4-4b36-be24-66a79e08f052" />
 You should see output indicating that the Google provider has been installed.
 
 ---
@@ -102,6 +103,9 @@ Generate an execution plan to see what Terraform will do:
 terraform plan
 ```
 
+
+<img width="1414" height="596" alt="Image" src="https://github.com/user-attachments/assets/6f72ce0b-0868-45ac-aaf4-b6bbb787373c" />
+<img width="1868" height="794" alt="Image" src="https://github.com/user-attachments/assets/844c0516-3c70-4190-a962-d501e7fccca4" />
 This command will show the actions Terraform will take based on your configuration.
 
 *Tip: Use the optional `-out` flag to save the plan for later use with `terraform apply`.*
@@ -115,7 +119,7 @@ Apply your configuration to create the VM instance:
 ```sh
 terraform apply
 ```
-
+<img width="1459" height="310" alt="Image" src="https://github.com/user-attachments/assets/cce448e3-9be1-41ac-b91b-41ef3929676b" />
 Terraform will show the execution plan and prompt you for approval. Type `yes` to proceed.
 
 Terraform will now provision your VM instance. This may take a few minutes.
@@ -133,6 +137,8 @@ terraform show
 You’ll see detailed information about the created VM instance, including IDs, resource attributes, and links.
 
 ---
+
+<img width="1470" height="624" alt="Image" src="https://github.com/user-attachments/assets/73ba4146-0271-462a-ae5c-b99538344239" />
 
 ## Cleanup
 
@@ -153,10 +159,4 @@ Confirm when prompted to clean up all managed resources.
 - [Google Cloud Shell](https://cloud.google.com/shell/docs/)
 
 ---
-<img width="1470" height="624" alt="Image" src="https://github.com/user-attachments/assets/73ba4146-0271-462a-ae5c-b99538344239" />
-<img width="1877" height="774" alt="Image" src="https://github.com/user-attachments/assets/3445e28c-3f6e-4478-85f7-85aff7993a3d" />
-<img width="924" height="443" alt="Image" src="https://github.com/user-attachments/assets/b77332ac-cba4-4b36-be24-66a79e08f052" />
-<img width="1414" height="596" alt="Image" src="https://github.com/user-attachments/assets/6f72ce0b-0868-45ac-aaf4-b6bbb787373c" />
-<img width="1868" height="794" alt="Image" src="https://github.com/user-attachments/assets/844c0516-3c70-4190-a962-d501e7fccca4" />
-<img width="1459" height="310" alt="Image" src="https://github.com/user-attachments/assets/cce448e3-9be1-41ac-b91b-41ef3929676b" />
 Congratulations! You’ve deployed your first VM instance using Terraform. Continue exploring to manage more complex infrastructure with code.
