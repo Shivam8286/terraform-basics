@@ -35,7 +35,6 @@ terraform
 ```
 
 You should see the Terraform help output, including available commands such as `apply`, `plan`, `destroy`, and more.
-
 ---
 
 ## Task 2: Build and Deploy Infrastructure
